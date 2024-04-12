@@ -1,62 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-* {
-    box-sizing: border-box;
+
+body{
+    margin: 0 auto;
+    max-width: 80%;
     font-family: 'PT Sans', sans-serif;
 }
 
-body {
-    margin: 0;
-}
 header{
-    background-image: url(./img/header.jpg);
-    background-size: auto;
+    padding: 162px;
     text-align: center;
 }
-.row{
+.uwu{
+    background-image: url(./img/header.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.col{
     text-align: center;
+    background-color: aqua;
 }
 
 .column-2 {
     width: 33.33%;
     float: left;
     text-align: center;
-
 }
+
 img{
     display: block;
     margin: 0 auto;
+    width: 75%;
+    height: 75%;
 }
+
 .column-1{
     width: 50%;               
     float: left;
     text-align: center;
 }
+
 .column-1 h2{
     text-align: left;
 }
+
 .column-1 p{
     text-align: left;
 }
+
 .column-3{
     width: 25%;
     float: left;
     text-align: left;
 }
+
 .gray {
     background-color: gray;
     padding: 50px;
 }
+
 .foot{
     text-align: center;
     color: white;
     border: 5px solid black; 
     border-top: 5px;
     padding: 10px;
-
-}
-.black{
-    background-color: black;
-    margin: auto;
 }
 
 @media screen and (max-width:600px) {
