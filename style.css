@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+header{
+    background-image: url(./img/header.jpg);
+    background-size: auto;
+    text-align: center;
+}
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-2 {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+.column-1{
+    width: 50%;               
+    float: left;
+    text-align: center;
+}
+.column-1 h2{
+    text-align: left;
+}
+.column-1 p{
+    text-align: left;
+}
+/*Clases auxiliares*/
+.gray {
+    background-color: gray;
+    padding: 50px;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width:600px) {
+    .column-2 {
+        width: 100%;
+    }
+}
