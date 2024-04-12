@@ -39,13 +39,23 @@ img{
 .column-1 p{
     text-align: left;
 }
-/*Clases auxiliares*/
+.column-3{
+    width: 25%;
+    float: left;
+    text-align: left;
+}
 .gray {
     background-color: gray;
     padding: 50px;
 }
-
-
+.foot{
+    text-align: center;
+    color: white;
+}
+.black{
+    background-color: black;
+    margin: auto;
+}
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width:600px) {
